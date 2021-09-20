@@ -1,0 +1,51 @@
+form{
+    
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+    min-height: 400px;
+    padding: 25px;
+    border-radius: 8px;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, .5);
+    color: white;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form > input,select{
+    min-height: 30px;
+    min-width: 100%;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    margin: 10px 5px;
+ 
+}
+form > label{
+    align-self: flex-start;
+
+}
+form > button{
+    background: rgb(12, 64, 221);
+    border: none;
+    min-width: 60px;
+    max-width:60px;
+    min-height: 30px;
+    border-radius: 8px;
+    align-self: center;
+    margin-top: 20px;
+    color: white;
+    transition: all .1s ease-in;
+}
+form > button:hover{
+    transform: translateY(-4px);
+    box-shadow: 0px 4px 5px black, 0px 8px 10px rgb(48, 47, 47);
+}
+
+.si{
+   display: block;
+}
+.no{
+    display: none;
+
+}
